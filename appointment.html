@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style/style.css">"
+    
+    <title>Document</title>
+</head>
+<body >
+    <header>
+        <div class="navbar" id="navBar" >
+            <h1>
+                <img src="image/Icon pharma.png" alt="">
+                <a href="index.html" >Pharma</a>
+            </h1>
+        <nav class="navigation" id="navBar">
+        <ul class="nav-ul" id="ul-item">
+            <li>
+                <a href="index.html" class="">Home</a>
+            </li>
+            <li>
+                <a href="aboutus.html" class="">About</a>
+            </li>
+            <li>
+                <a href="servises.html" class="">Servise</a>
+            </li>
+            <li>
+                <a href="appointment.html" class="">Appointment</a>
+            </li>
+            <li>
+                <a href="contact.html" class="">Contact Us</a>
+            </li>
+            
+        </ul>
+        </nav>
+        
+        <div class="burger-bar" id="burgerBar">
+            <div class="line line1"></div>
+            <div class="line line2"></div>
+            <div class="line line3"></div>
+        
+        </div>
+        </div>
+                    </header>
+<main>
+
+    <div class="appointmentbanner">
+
+    </div>
+<div class="appointment-container" id="appointmentContainer" >
+
+<h1>
+    Book an appointment
+</h1>
+
+<h3>
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Omnis eaque quam cumque voluptatibus nobis veniam, nulla laborum reprehenderit facilis quos optio iure! Praesentium vero assumenda eligendi quos fugit ipsum nisi.
+</h3>
+
+<form action="apointment-form" class="apointment-form" id="apointment-form">
+<div class="inputfield">
+      <input type="text" id="name" placeholder="Name" data-toggle="tooltip" data-placement="bottom" title="Name should be in Latin alphabet"  />
+      <p class="error-text" id="error-name"></p>
+</div>
+
+<div class="inputfield">
+    <div class="passwordDiv">
+      <input type="password" id="password"  class="password" placeholder="Password" />
+    <i id="toggleIcon" class="fa-solid fa-eye"></i>  
+    </div>
+    
+    <p class="error-text" id="error-password"></p>
+</div>
+
+
+<div class="inputfield">
+    <input type="email" id="email" placeholder="Email" />
+    <p class="error-text" id="error-email"></p>
+</div>
+  
+<div class="inputfield">
+        <input type="phone" id="phone" data-toggle="tooltip" data-placement="bottom" title="Phone Format (+995)599000000" placeholder="Phone" />
+        <p class="error-text" id="error-phone"></p>
+    </div>
+    
+    <div class="inputfield">
+       <input type="text" id="department" placeholder="Department" />  
+       <p class="error-text" id="error-department"></p>
+    </div>
+   
+    <div class="inputfield">
+      <input type="date" name="date" id="date" placeholder="Date" />  
+      <p class="error-text" id="error-date"></p>
+    </div>
+
+    <div class="inputfield">
+    <input type="textarea" id="message" placeholder="Message" />
+    <p class="error-text" id="error-message"></p>
+</div>
+
+<div class="inputfield">
+       <button type="submit" class="button" id="btn" >Book Now</button>
+     
+</div>
+
+
+</form>
+
+</div>
+
+<!-- 
+       <div class="cookies-infobar">
+        <p>
+            If you continue to use this site means you accept Terms and Conditions and Privacy Policy. We use cookies to ensure that we give you the best experience on our website.
+  <a href="#">Read terms and conditions</a>
+        </p>
+   
+  
+        <div class="cookies-infobar_wrapper">
+            <a href="#" id="cookies-infobar-close" class="cookies-infobar_btn">Accept</a>
+            <a href="about:blank" class="cookies-infobar_btn">Reject</a>
+         </div>
+    </div> -->
+
+
+<!-- <div id="modalbox" class="modalbox">
+    <img src="image/cookies.png"  class="cookies">
+    <p>
+        We use cookies to optimize user experience and content
+    </p>
+<button type="button" onclick="closemodal()">
+Accept
+</button>
+<img src="image/close.png" class="closeIcon" alt="" onclick="closemodal()">
+
+</div>
+   
+
+ <script >
+
+let modalbox = document.getElementById("modalbox");
+function showmodal(){
+    setTimeout(() => {
+        modalbox.style.display = "block"
+    }, 500)
+}
+
+function closemodal (){
+    modalbox.style.display = "none"
+}
+
+
+</script> -->
+<footer>
+    <p>Copyright &#169 Pharma | Designed by VictorFlow Templates </p>
+ </footer>
+
+
+<script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js
+"></script>
+
+<script src="script/appointment.js"></script>
+<script src="script/burgerbar.js"></script>
+</main>
+
+
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+  "dependencies": {
+    "@splidejs/splide": "^4.1.4",
+    "axios": "^1.3.6",
+    "it": "^0.2.7",
+    "y": "^0.3.2"
+  },
+  "name": "js_final-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "coffee-script": "^1.3.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamogakhokidze/js_final-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamogakhokidze/js_final-project/issues"
+  },
+  "homepage": "https://github.com/tamogakhokidze/js_final-project#readme",
+  "description": ""
+}

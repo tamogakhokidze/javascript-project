@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="style/style.css" />
+    <title>Document</title>
+  </head>
+  <body  onload="showmodal()">
+    <header>
+        <div class="navbar" id="navBar" >
+            <h1>
+                <img src="image/Icon pharma.png" alt="">
+                <a href="index.html" >Pharma</a>
+            </h1>
+        <nav class="navigation" id="navBar">
+        <ul class="nav-ul" id="ul-item">
+            <li>
+                <a href="index.html" class="">Home</a>
+            </li>
+            <li>
+                <a href="aboutus.html" class="">About</a>
+            </li>
+            <li>
+                <a href="servises.html" class="">Servise</a>
+            </li>
+            <li>
+                <a href="appointment.html" class="">Appointment</a>
+            </li>
+            <li>
+                <a href="contact.html" class="">Contact Us</a>
+            </li>
+            
+        </ul>
+        </nav>
+        
+        <div class="burger-bar" id="burgerBar">
+            <div class="line line1" ></div>
+            <div class="line  line2"></div>
+            <div class="line line3"></div>
+        
+        </div>
+        </div>
+        
+            </header>
+<main>
+    <div class="service-container">
+
+      <div class="banner-image">
+        <!-- <img src="image/service Banner.png" alt="" /> -->
+      </div>
+       <!-- 
+        <img  class="servicePicture" src="image/Photo servises.png" alt="" />
+
+         <div class="workinghours">
+          <p>
+            Working Hours Sunday To Friday 9.00 am - 10.00 pm Saturday Closed
+          </p> -->
+
+      <div class="services">
+        
+        <div class="card">
+          <i>
+            <img src="image/Icon angioplasty.png"/>
+          </i>
+          <div class="card-title">
+            <h2>Angioplasty</h2>
+          <i class="fa-solid fa-plus"></i> 
+          </div>
+         <div class="card-content">
+          <p >
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily </p>
+            </div>
+        </div>
+
+        <div class="card" >
+          <i>
+            <img src="image/Icon heart.png"/>
+          </i>
+
+          <div class="card-title">
+            <h2>Cardiology</h2>
+          <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="card-content" >
+          <p>
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily.
+          </p>
+        </div>
+    </div>
+
+        <div class="card"
+          <i>
+            <img src="image/Icon dental.png"  />
+          </i>
+
+          <div class="card-title">
+              <h2>Dental</h2>
+          <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="card-content">
+          <p > 
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily.
+          </p>
+</div>
+        </div>
+
+        <div class="card">
+          <i>
+            <img src="image/Icon eye.png" />
+          </i>
+          <div class="card-title">
+             <h2>Eye Care</h2>
+          <i class="fa-solid fa-plus"></i>
+          </div>
+          <div class="card-content">
+          <p>
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily.
+          </p>
+        </div>
+        </div>
+
+        <div class="card">
+          <i>
+            <img src="image/Icon endocrinology.png" />
+          </i>
+          <div class="card-title">
+           <h2>Endocrinology</h2>
+          <i class="fa-solid fa-plus"></i>  
+          </div>
+          <div class="card-content">
+          <p>
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily.
+          </p>
+        </div>
+    </div>
+         <div class="card">
+          <i>
+            <img src="image/Icon orthopedics.png" />
+          </i>
+          <div class="card-title">
+             <h2>Orthopaedics</h2>
+          <i class="fa-solid fa-plus"></i> 
+          </div>
+          <div class="card-content">
+          <p>
+            Our team of highl professionals uses the latest heal echnologies
+            health quickly and easily.
+          </p>
+        </div>
+            </div>
+        </div>
+    </div>
+             
+   
+    <div id="modalbox" class="modalbox">
+      <img src="image/cookies.png"  class="cookies">
+      <p>
+          We use cookies to optimize user experience and content
+      </p>
+  <button type="button"class="accept-button" onclick="closemodal()">
+  Accept
+  </button>
+
+  <i class="fa-solid fa-xmark" onclick="closemodal()"></i>
+  <!-- <img src="image/close.png"  -->
+  <i> </i>
+  </div>
+     
+  
+   <script >
+  
+  let modalbox = document.getElementById("modalbox");
+  function showmodal(){
+      setTimeout(() => {
+          modalbox.style.display = "block"
+      }, 500)
+  }
+  
+  function closemodal (){
+      modalbox.style.display = "none"
+  }
+  
+  
+  </script>
+ </main>
+
+<footer>
+    <p>Copyright &#169 Pharma | Designed by VictorFlow Templates </p>
+    </footer>
+    <script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.1/dist/js.cookie.min.js
+"></script>
+        <script src="script/services.js"></script>
+        <script src="https://kit.fontawesome.com/0ec2e12077.js",crossorigin="anonymous"></script>
+        <script src="script/burgerbar.js"></script>
+  </body>
+</html>
